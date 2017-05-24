@@ -1,0 +1,48 @@
+body {
+    background-color: purple;
+}
+
+.title {
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  font-family: georgia;
+  color: white;
+}
+
+.board {
+    margin-top: 50px;
+}
+
+.row {
+    text-align: center;
+}
+
+.dot {
+    margin: 2rem;
+    border-radius: 100%;
+    background-color: rgb(245, 245, 245);
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+.full {
+    margin: 2rem;
+    border-radius: 100%;
+    background-color: rgb(210, 208, 13);
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+.highlight {
+    box-shadow: 0 0 5px 7px rgb(11, 241, 27);
+}
+
+.instructions {
+  display: block;
+  text-align: center;
+  font-family: georgia;
+  color: white;
+}
